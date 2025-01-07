@@ -39,6 +39,7 @@ public with sharing class CaseTriggerHandler {
             } else if (newCase.ContactId == null) {
                 newCase.Searchable_Contact_Email__c = null;
             }
+            
         }
     }
     
